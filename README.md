@@ -40,5 +40,17 @@ podman pull nginx
 ```
 podman pull docker.io/library/nginx
 ```
+### To see the running container
+```
+podman ps
+```
+
+
+### Port Binding of container
+```
+podman run -dt -p 8080:80/tcp docker.io/library/nginx
+```
+
+
 
 
